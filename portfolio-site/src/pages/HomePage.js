@@ -1,8 +1,8 @@
 import React from 'react';
-
+import Heading from '../components/Heading'
 function HomePage(props){
     return(
-        <p>HomePage Working</p>
+        <Heading title={props.title} subTitle={props.subTitle} subText={props.subText} />
     );
 }
 

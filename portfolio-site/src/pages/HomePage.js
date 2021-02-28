@@ -1,8 +1,14 @@
 import React from 'react';
-import Heading from '../components/Heading'
+import Heading from '../components/Heading';
+import Carousel from '../components/Carousel';
+
 function HomePage(props){
     return(
-        <Heading title={props.title} subTitle={props.subTitle} subText={props.subText} />
+        <div>
+            <Heading title={props.title} subTitle={props.subTitle} subText={props.subText} />
+            <Carousel />
+        </div>
+
     );
 }
 

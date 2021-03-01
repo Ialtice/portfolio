@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -20,7 +20,7 @@ class App extends React.Component {
       headerLinks: [
         { title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
-        { title: 'Contac', path: '/contact' }
+        { title: 'Contact', path: '/contact' }
       ],
       home: {
         title: 'Ready To Make A Difference',
@@ -32,7 +32,7 @@ class App extends React.Component {
         
       },
       contact: {
-        title: 'Im eager to get in contact with you!',
+        title: 'I\'m eager to get in contact with you!',
         
       },
     }

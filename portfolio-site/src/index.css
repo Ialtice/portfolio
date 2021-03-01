@@ -34,3 +34,12 @@ code {
    font-size: 16px;
    margin: 0px;
  }
+
+ .sucess-msg{
+   color: green;
+   padding: 10px 15px;
+ }
+ .err-msg{
+  color: red;
+  padding: 10px 15px;
+}

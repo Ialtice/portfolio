@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Card from '../components/Card';
 import UNCC from '../media/images/UNCC.jpg';
 import Headshot from '../media/images/Headshot.jpg';
-import GithubLogo from '../media/images/GithubLogo.png';
+import GithubLogo from '../media/images/GithubLogo.jpg';
 
 
 
@@ -25,7 +25,7 @@ class Carousel extends React.Component{
                 {
                     id: 1,
                     title: 'Isaac Altice',
-                    subTitle: 'Future Software Engineer',
+                    subTitle: 'Software Engineer',
                     imgSrc: Headshot,
                     link: 'https://www.linkedin.com/in/isaac-altice-015a6317a/',
                     selected: false

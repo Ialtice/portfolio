@@ -13,7 +13,8 @@ code {
 }
 
 .i-card{
-  margin: 20px,
+  margin: 20px;
+  border-style: groove;
 }
 .i-card-image{
   border-radius: 10px;
